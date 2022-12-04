@@ -1,0 +1,90 @@
+.header {
+    height: 100px;
+}
+
+.header-top {
+    background-color: #ecf0f1;
+    font-size: 9px;
+    color: #34495e;
+    height: 30px;
+}
+
+.nav {
+    height: 200px;
+}
+
+.category {
+    background-color: #2c3e50;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+}
+
+.category-item {
+    width: 40px;
+}
+
+.category-detail {
+    margin-top: -50px;
+    margin-left: -780px;
+}
+
+.menu-board {
+    display: none;
+    position: absolute;
+    margin-left: -20px;
+    border: solid 3px #95a5a6;
+    width: 200px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.logo-item {
+    width: 150px;
+}
+
+.search {
+    width: 300px;
+    height: 200px;
+}
+
+#search {
+    width: 245px;
+    height: 32px;
+    border: none;
+    outline: none;
+}
+
+.search-box {
+    border: solid 4px #95a5a6;
+    height: 40px;
+    width: 300px;
+}
+
+.search-btn {
+    width: 35px;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.mypage-btn {
+    width: 35px;
+}
+
+.mypage {
+    height: 100px;
+    width: 100px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.cart {
+    height: 100px;
+    width: 100px;
+    font-size: 13px;
+}
