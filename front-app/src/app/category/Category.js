@@ -19,7 +19,6 @@ class Category extends Component {
     }
 
     off() {
-        console.log(1);
         document.getElementsByClassName("menu-board")[0].classList.remove("show");
     }
 
