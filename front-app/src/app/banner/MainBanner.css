@@ -1,0 +1,15 @@
+.main-banner {
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background: #000;
+}
+
+.swiper-button-prev {
+    color: #000;
+}
+
+.swiper-button-next {
+    color: #000;
+}

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Category from './category/Category';
+import MainBanner from './banner/MainBanner';
 
 import './App.css';
 import './common.css';
@@ -75,8 +76,8 @@ class App extends Component {
 
           <Category isShow={this.state}></Category>
 
-          <div>
-            1111
+          <div className="main-banner-wrap">
+            <MainBanner />
           </div>
         </div>
       </div>)

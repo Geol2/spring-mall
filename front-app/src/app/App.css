@@ -32,9 +32,11 @@
 .menu-board {
     display: none;
     position: absolute;
+    background-color: white;
     margin-left: -20px;
     border: solid 3px #95a5a6;
     width: 200px;
+    z-index: 1000;
 }
 
 .logo {
@@ -87,4 +89,9 @@
     height: 100px;
     width: 100px;
     font-size: 13px;
+}
+
+.main-banner-wrap {
+    margin-top: 10px;
+    z-index: 0;
 }

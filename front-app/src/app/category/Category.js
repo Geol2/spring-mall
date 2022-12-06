@@ -6,10 +6,6 @@ class Category extends Component {
         show: this.props.isShow.onCateToggle
     };
 
-    constructor(props) {
-        super(props);
-    }
-
     on(flag) {
         
         if( flag === true ) {
@@ -29,10 +25,18 @@ class Category extends Component {
                 <div className="detail-component">
                     <div className={`menu-board ${this.on(this.props.isShow.onCateToggle)}`}
                         onMouseLeave={this.off}>
-                        <ul> 생활용품 </ul>
-                        <ul> 컴퓨터/가전 </ul>
-                        <ul> 인테리어 </ul>
-                        <ul> 식품 </ul>
+                        <ul> 
+                            <li> 생활용품 </li>
+                        </ul>
+                        <ul>
+                            <li> 컴퓨터/가전 </li>
+                        </ul>
+                        <ul>
+                            <li> 인테리어 </li>
+                        </ul>
+                        <ul>
+                            <li> 식품 </li> 
+                        </ul>
                     </div>
                 </div>
             </div>
