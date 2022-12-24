@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Category from './category/Category';
 import MainBanner from './banner/MainBanner';
+import Trend from './trend/Trend';
 
 import './App.css';
 import './common.css';
@@ -78,6 +79,7 @@ class App extends Component {
 
           <div className="main-banner-wrap">
             <MainBanner />
+            <Trend />
           </div>
         </div>
       </div>)

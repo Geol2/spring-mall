@@ -2,6 +2,8 @@ p, ul, li {
     margin-block-start: 0;
     margin-block-end: 0;
     padding-inline-start: 0;
+
+    list-style:none;
 }
 
 body {
@@ -80,15 +82,45 @@ body {
 }
 
 
+.ml-10 {
+    margin-left: 10px; 
+ }
+ 
+.ml-20 {
+    margin-left: 20px; 
+ }
+
 .ml-30 {
    margin-left: 30px; 
 }
 
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
 
 .mr-30 {
     margin-right: 30px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
 
 .p-10 {
     padding: 10px;
@@ -112,4 +144,37 @@ body {
 
 .p-60 {
     padding: 60px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.sz-20 {
+    font-size: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.peter-river {
+    color : #3498db;
+}
+
+.line {
+    height: 2px;
+    background-color: #3498db;   
 }
