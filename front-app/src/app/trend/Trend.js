@@ -22,7 +22,7 @@ class Trend extends Component {
                         <div className="inline peter-river"> 추천 광고상품</div> 
                     </div>
                     <div className="peter-river line"></div>
-                    <div className="flex trend-container">
+                    <div className="flex flex-around trend-container">
                         <div className="w10per h100per">
                             <div className="flex flex-column flex-between h100per ">
                                 <div className="flex flex-column m-10">
