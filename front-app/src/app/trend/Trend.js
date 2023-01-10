@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 import './Trend.css';
 
@@ -14,12 +22,52 @@ class Trend extends Component {
                         <div className="inline peter-river"> 추천 광고상품</div> 
                     </div>
                     <div className="peter-river line"></div>
-                    <div className="flex flex-center">
-                        <div className="trend-name">
-                            식품 
+                    <div className="flex trend-container">
+                        <div className="w10per h100per">
+                            <div className="flex flex-column flex-around h100per">
+                                <div className="flex flex-column">
+                                    <div className="trend-name w100per">
+                                        도서<br></br>
+                                        CD<br></br>
+                                        DVD <br></br>
+                                    </div>
+                                    <div className="go-category">
+                                        > 바로가기
+                                    </div>
+                                </div>
+                                
+                                <div className="flex flex-column flex-center hot-keyword">
+                                    <div className="hot-keyword-wrap">
+                                        HOT 키워드
+                                    </div>
+                                    <a className="keyword-btn">#흔한남매</a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="trend-img">
-                            식품 이미지
+                        <div className="trend-img ">
+                            <Swiper
+                                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                                spaceBetween={50}
+                                slidesPerView={1}
+                                pagination={{ clickable: true }}
+                                scrollbar={{ draggable: true }}
+                            >
+                                <SwiperSlide>
+                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-1.jpg`} alt="noimg" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-2.jpg`} alt="noimg" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-3.jpg`} alt="noimg" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-4.jpg`} alt="noimg" />
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-5.jpg`} alt="noimg" />
+                                </SwiperSlide>
+                            </Swiper>
                         </div>
                         <div className="trend-prod">
                             상품들

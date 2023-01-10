@@ -33,6 +33,10 @@ body {
     flex-direction: column;
 }
 
+.flex-row {
+    flex-direction: row;
+}
+
 .flex-center {
     justify-content: center;
     align-items: center;
@@ -42,6 +46,17 @@ body {
     justify-content: flex-end;
 }
 
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
 
 .left-items {
 
@@ -55,7 +70,17 @@ body {
     height: 30px;
 }
 
+.h100per {
+    height: 100%;
+}
 
+.w100per {
+    width: 100%;
+}
+
+.w10per {
+    width: 10%;
+}
 
 .m-10 {
     margin: 10px;
