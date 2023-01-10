@@ -24,8 +24,8 @@ class Trend extends Component {
                     <div className="peter-river line"></div>
                     <div className="flex trend-container">
                         <div className="w10per h100per">
-                            <div className="flex flex-column flex-around h100per">
-                                <div className="flex flex-column">
+                            <div className="flex flex-column flex-between h100per ">
+                                <div className="flex flex-column m-10">
                                     <div className="trend-name w100per">
                                         도서<br></br>
                                         CD<br></br>
@@ -36,11 +36,14 @@ class Trend extends Component {
                                     </div>
                                 </div>
                                 
-                                <div className="flex flex-column flex-center hot-keyword">
+                                <div className="flex flex-column flex-center hot-keyword m-10">
                                     <div className="hot-keyword-wrap">
                                         HOT 키워드
                                     </div>
                                     <a className="keyword-btn">#흔한남매</a>
+                                    <a className="keyword-btn">#색칠공부</a>
+                                    <a className="keyword-btn">#한글공부</a>
+                                    <a className="keyword-btn">#요리책</a>
                                 </div>
                             </div>
                         </div>
