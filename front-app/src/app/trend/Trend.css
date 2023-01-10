@@ -1,7 +1,7 @@
 .trend {
     position: relative;
     width: 100%;
-    height: 60px;
+    height: 600px;
     font-size: 25px;
 
     margin-top: 20px;
@@ -13,7 +13,7 @@
 }
 
 .trend-container {
-    height: 500px;
+    height: 600px;
 }
 
 .trend-slide-img {
@@ -26,7 +26,7 @@
 }
 
 .trend-img {
-    width: 265px;
+    width: 315px;
 }
 
 .trend-prod {
