@@ -55,19 +55,49 @@ class Trend extends Component {
                                 scrollbar={{ draggable: true }}
                             >
                                 <SwiperSlide>
-                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-1.jpg`} alt="noimg" />
+                                    <div className="trend-slide-wrap">
+                                        <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-1.jpg`} alt="noimg" />
+                                        <div className="trend-slide-txt">
+                                            인기 어린이 도서 기획전<br></br>
+                                            삼성출판사 / 마이리틀타이거
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-2.jpg`} alt="noimg" />
+                                    <div className="trend-slide-wrap">
+                                        <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-2.jpg`} alt="noimg" />
+                                        <div className="trend-slide-txt">
+                                            해외 도서<br></br>
+                                            원서로 느끼는 즐거움
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-3.jpg`} alt="noimg" />
+                                    <div className="trend-slide-wrap">
+                                        <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-3.jpg`} alt="noimg" />
+                                        <div className="trend-slide-txt">
+                                            기탄전집 & 학습지 기획전<br></br>
+                                            가성비 그뤠잇!
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-4.jpg`} alt="noimg" />
+                                    <div className="trend-slide-wrap">
+                                        <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-4.jpg`} alt="noimg" />
+                                        <div className="trend-slide-txt">
+                                            인기 어린이 도서 기획전<br></br>
+                                            흔한남매 / 엉덩이 기획전
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                    <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-5.jpg`} alt="noimg" />
+                                    <div className="trend-slide-wrap">
+                                        <img className="trend-slide-img" src={`${process.env.PUBLIC_URL}/images/trend/trend-5.jpg`} alt="noimg" />
+                                        <div className="trend-slide-txt">
+                                            인기 어린이 도서 기획전<br></br>
+                                            필독 도서 읽기 동화세트
+                                        </div>
+                                    </div>
                                 </SwiperSlide>
                             </Swiper>
                         </div>
