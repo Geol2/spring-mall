@@ -50,7 +50,6 @@ class Trend extends Component {
                         <div className="trend-img ">
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                                spaceBetween={50}
                                 slidesPerView={1}
                                 pagination={{ clickable: true }}
                                 scrollbar={{ draggable: true }}
